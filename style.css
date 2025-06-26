@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-50%);
+    font-family: Arial, sans-serif;
+}
